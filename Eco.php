@@ -4,8 +4,7 @@
     <title>L'éco-conception</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
-    
-
+  
   </head>
   <body>
     <!--part1 : Titre et logo-->
@@ -17,28 +16,28 @@
       <!--part2 Titre Constat et text-->
    <div class="bloc-div"> 
       <div><h2 class="titre-constat">Le constat</h2>
-      <p >Le web pollue de manière croissante et inquiétante, il faut donc concevoir des sites web plus légers et sollicitant moins d'allers-retours serveur(s). </p>
+      <pc class="titre">Le web pollue de manière croissante et inquiétante, il faut donc concevoir des sites web plus légers et sollicitant moins d'allers-retours serveur(s). </p>
       <p >L’impact environnemental du numérique n’est pas toujours connu, pourtant il est très important. </p>
        <p>Pour s’en rendre compte, voici quelques chiffres :</p><br/></br>
       </div>
   </div>
        
-      <!--part3 Cerle chiffre: -->
+      <!--part3 Cerle chiffre: avec un java sur headline -->
        
-  <div id="bloc" >
-       <div class="column1"><h3>15000 kilomètres</h3></br>sont en moyenne parcourus pour une donnée numérique </div> 
+  <div id="bloc" class="headline" >
+       <div class="column1 photo"><h3>15000 kilomètres</h3></br>sont en moyenne parcourus pour une donnée numérique </div> 
        <div class="column1"><h3>7 grammes de CO2 </h3></br>sont en moyenne parcourus pour une donnée numérique  sont émis lors d’une recherche Google</div> 
        <div class="column1"><h3>10 % de l’électricité </h3></br>sont consommées dans notre pays par les data center français.</div> 
     </div>  
         <!--part4 Déf Eco conception-->
-    <div class="eco-image">
+    <div class="eco-image intro" >
       <h2>Qu’est-ce que l’éco-conception ?</h2>
-      <p>L'Eco-conception c'est l'intégration de la réduction des impacts environnementaux dès la phase de conception d'un service numérique avec une vision globale sur l'ensemble du cycle de vie. Le même service rendu génère moins d'impacts s'il est éco-conçu. En intégrant les dimensions sociale et économique, elle mène à la conception numérique responsable ".</p>
+      <p class="punchline">L'Eco-conception c'est l'intégration de la réduction des impacts environnementaux dès la phase de conception d'un service numérique avec une vision globale sur l'ensemble du cycle de vie. Le même service rendu génère moins d'impacts s'il est éco-conçu. En intégrant les dimensions sociale et économique, elle mène à la conception numérique responsable ".</p>
        
        <p>Il faut donc réduire l'impact environnemental du web tout en gagnant en performance. </p>
        
        <!--part6 image cycle de vie-->  
-        <p>L’éco-conception se doit intervenir dans chaque étape du cycle d’un produit, et non seulement dans quelques étapes.</p>
+        <p > L’éco-conception se doit intervenir dans chaque étape du cycle d’un produit, et non seulement dans quelques étapes.</p>
       </div></br> </br>
         
       <img  class="imagecycle"src="images/cycle-vie.jpg" alt="Cycle de vie" ></br>
@@ -58,6 +57,8 @@
        <div class="boxbutton"><button class="box">En savoir plus</button></div>
    
     </div>
-  
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="app.js"></script>
+
   </body>
 </html>
