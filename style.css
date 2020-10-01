@@ -239,3 +239,9 @@ p{
      justify-content: center;
 
  }
+    /* Tests pour git*/
+ 
+    .boxbutton{
+        width: 100%;
+        display: flex;
+        justify-content: center;
